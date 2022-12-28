@@ -70,10 +70,10 @@ def send_start(client: pyrogram.client.Client,
                message: pyrogram.types.messages_and_media.message.Message):
   app.send_message(
     message.chat.id,
-    f"__👋 Hi **{message.from_user.mention}**, I am shareus bypasser bot, just send me any shareus links and i will you get you results.\n👉 More command use :- /help /about \n\n<b>This bot power by @GreyMatter_Bots</b>",
+    f"__👋 Hi **{message.from_user.mention}**, I am shareus bypasser bot, just send me any shareus links and i will you get you results.\n👉 More command use :- /help /about \n\n<b>This bot power by @MM_MOVIESSS</b>",
     reply_markup=InlineKeyboardMarkup([[
       InlineKeyboardButton(
-        "❤ Developer", url="https://github.com/BotCreator99")
+        "❤ Developer", url="https://t.me/MM_MOVIESSS")
     ]]),
     reply_to_message_id=message.id)
 
@@ -129,5 +129,5 @@ def docfile(client: pyrogram.client.Client,
 
 # server loop
 print("👍😍😍 Bot Started")
-print("😎 follow on GitHub BotCreator99")
+print("😎 follow on ")
 app.run()
